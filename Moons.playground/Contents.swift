@@ -31,7 +31,7 @@ func planetDescription(planet: String, numberOfMoons: Int) {
 
 // This line of code gives an error.
 // Uncomment it to see what the error is!
-//planetDescription("Jupiter", 67)
+//planetDescription("Jupiter", 67) second and preceding arguments have to be called by the name specified in the function
 
 planetDescription("Jupiter", numberOfMoons: 67)
 
@@ -41,3 +41,19 @@ planetDescription(planet, numberOfMoons: moons)
 planet = "Mars"
 moons = 2
 planetDescription(planet, numberOfMoons: moons)
+
+planet = "Saturn"
+moons = 53
+planetDescription(planet, numberOfMoons: 53)
+
+planet = "Uranus"
+moons = 27
+planetDescription(planet, numberOfMoons: 27)
+
+planet = "Neptune"
+moons = 13
+planetDescription(planet, numberOfMoons: 13)
+
+planet = "Earth"
+moons = 1
+planetDescription(planet, numberOfMoons: 1)
